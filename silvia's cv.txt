@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>Aril's CV</title> 
+
+  <style>
+		.atas{
+            width:1300px;
+            border-radius: 30px;
+            background-color:#00008b;
+            color: white;
+            opacity: 0.75;
+			text-align: center;
+			font-size : 24px;
+			font-family: Vivaldi;
+			margin-left: 20px;
+          }
+		  h2{
+		  font-family :Monotype Corsiva;
+		  text-align : center;
+		  margin-left : 100px;
+		  font-size : 28px;
+		  color : white;
+		  }
+          body{
+            font-family:Garamond;
+			margin-left : 100px;
+            margin: 0 auto;
+            text-align:left;
+          }
+		  .biodata{
+			float: right;
+			margin-right: 35px;
+			text-align:left;
+            border-radius: 15px;
+            width:500px;
+            background-color: #00008b;
+            border: 15px solid #00008b;
+            font-size:16px;
+            color: white;
+            opacity:0.75;
+          }
+		  .isiForm{
+			margin: 0 auto;
+			float : left;
+			margin-left : 30px;
+			text-align :left;
+			border-radius :15px;
+			width:460px;
+			background-color: #00008b;
+            border: 15px solid #00008b;
+            font-size:16px;
+            color: white;
+            opacity:0.75;
+		  }
+          #gambar{
+			float: top;
+			margin-top: 60px;
+			float: right;
+            margin-right: 30px;
+          }
+		  #poin{
+		   font-family : Monotype Corsiva;
+		   font-size : 24px;
+		  }
+		  td{
+		  color: white;
+		  }
+      </style>
+	   
+  </head>
+  <body background="blue-black.jpg">
+  <h1>
+  <div class="atas"><img src="5.png" /><img src="nama.png" />Aril Kurniawati</div>
+  </h1>
+  <div id="gambar"><img src="me.jpg" width="200" height="250"/></div>
+  <h2><b>Daftar Riwayat Hidup</b></h2>
+  <div class="biodata">
+      <table>
+		<tr>
+	    <td id="poin"><strong>Biodata</strong></td>
+        <tr><td>Nama Lengkap</td><td>:</td><td>Aril Kurniawati</td></tr>
+        <tr><td>Alamat </td> <td>:</td><td>Sumber Dawesari RT.01 RW.03 Grati-Pasuruan</td></tr>
+        <tr><td>Tempat,Tanggal lahir </td><td>:</td><td>Pasuruan, 14 April 1993</td></tr>
+        <tr><td>Jenis Kelamin </td><td>:</td><td>Perempuan</td></tr>
+        <tr><td>Agama </td><td>:</td><td>Islam</td></tr>
+		<tr><td>No. Hp </td><td>:</td><td>085646494507</td></tr>
+		<tr><td>Email </td><td>:</td><td>aril1407@gmail.com</td></tr>
+		<tr><td>Facebook </td><td>:</td><td><a href="http://www.facebook.com/aril.kurnia.5">facebook.com/aril.kurnia</a></td>
+        </tr>
+		<br>
+		<td id="poin"><strong> Riwayat Pendidikan </strong></td>
+		<ul>
+		<tr><td><li>SD </td><td>:</td><td>Sumber Dawe Sari I</li></td></tr>
+		<tr><td><li>SMP </td><td>:</td><td>SMPN 2 Grati</li></td></tr>
+		<tr><td><li>SMA </td><td>:</td><td>SMAN 1 Grati</li></td></tr>
+		<tr><td><li>Perguruan Tinggi </td><td>:</td><td>Universitas Negeri Malang</li></td></ul>
+		</tr>
+		<br>
+		<ul>
+		<td id="poin"><strong> Riwayat Organisasi </strong></td>
+		<tr><td><li>SD </td><td>:</td><td> - </td></li></tr>
+		<tr><td><li>SMP </td><td>:</td><td> - </td></li></tr>
+		<tr><td><li>SMA </td><td>:</td><td> - </td></li></tr>
+		<tr><td><li>Perguruan Tinggi </td><td>:</td><td>KSR PMI UM</td></tr></li></ul>
+		<br>
+		
+		<td id="poin"><strong> Prestasi</strong></td>
+		<ol>
+		<tr><td><li>SD </td><td>:</td><td>Juara 2 Olimpiade Matematika dan Harapan 1</li></td></tr>
+		<tr><td><li>SMP </td><td>:</td><td>OSN Biologi dan Fisika</li></td></tr>
+		<tr><td><li>SMA </td><td>:</td><td>OSN Kimia</li></td></tr>
+		<tr><td><li>Perguruan Tinggi </td><td>:</td><td> - </li></td></tr>
+		</ol>
+		
+	</table>
+  </div>
+
+  <div class="isiForm"> 
+  <form>
+   <table>
+		<tr>
+	    <td id="poin"><strong>Biodata</strong></td>
+        <tr><td>Nama </td><td>:</td><td><input name="nama lengkap"></td></tr>
+        <tr><td>Alamat </td> <td>:</td><td><input name="alamat lengkap" style="width:136px; height :50px"></td></tr>
+        <tr><td>Tempat,Tanggal lahir </td><td>:</td><td><input name="nama lengkap"></td></tr>
+        <tr><td>Jenis Kelamin </td><td>:</td><td>
+		<br>
+		<input name="jenis kelamin" type="radio">Laki-Laki<br>
+		<input name="jenis kelamin" type="radio">Perempuan
+		</td></tr>
+        <tr><td>Agama</td><td>:</td><td>
+		<select>
+		<option selected="selected">
+		</option><option values="agama">Islam
+		</option><option values="agama">Kristen
+		</option><option values="agama">Katholik
+		</option><option values="agama">Hindu
+		</option><option values="agama">Budha
+		</option></selected>
+		</td></tr>
+		<tr><td>No. Hp </td><td>:</td><td><input name="hp"></td></tr>
+		<tr><td>Email </td><td>:</td><td><input name="email"></td></tr>
+		<tr><td>Facebook </td><td>:</td><td><input name="facebook"></td>
+        </tr>
+		
+		<td id="poin"><strong> Riwayat Pendidikan </strong></td>
+		<tr><td>SD </td><td>:</td><td><input name="sd"></td></tr>
+		<tr><td>SMP </td><td>:</td><td><input name="smp"></td></tr>
+		<tr><td>SMA </td><td>:</td><td><input name="sma"></td></tr>
+		<tr><td>Perguruan Tinggi </td><td>:</td><td><input name="pt"></td>
+		</tr>
+		<br>
+		
+		<td id="poin"><strong> Riwayat Organisasi </strong></td>
+		<tr><td>SD </td><td>:</td><td><input name="sd"></td></tr>
+		<tr><td>SMP </td><td>:</td><td><input name="smp"></td></tr>
+		<tr><td>SMA </td><td>:</td><td><input name="sma"></td></tr>
+		<tr><td>Perguruan Tinggi </td><td>:</td><td><input name="pt"></td></tr>
+		<br>
+		
+		<td id="poin"><strong> Prestasi</strong></td>
+		<tr><td>SD </td><td>:</td><td><input name="sd"></td></tr>
+		<tr><td>SMP </td><td>:</td><td><input name="smp"></td></tr>
+		<tr><td>SMA </td><td>:</td><td><input name="sma"></td></tr>
+		<tr><td>Perguruan Tinggi </td><td>:</td><td><input name="sd"></td></tr>
+		<br>
+		<tr><td>
+		<input value="Submit" type="submit"> <input value="Clear" type="reset"></td></tr>
+  </form>
+  </table>
+  </div>
+  </body>
+  
+</html>
